@@ -64,10 +64,16 @@ section {
    
 }
 
+section >p {
+    padding-bottom: 2em;
+}
+
 section.imagem > p {
    display: inline-block;
    padding: 5px;
     background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px black;
 }
 
 section.normal {
@@ -78,8 +84,23 @@ section.normal {
 section.imagem {
     background-color: rgb(46, 45, 45);
     color: white;
+    box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
 }
 
+section#imagem01 {
+background-image: url(projeto-cordel/imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+
+
+}
+
+section#imagem02 {
+background-image: url(projeto-cordel/imagens/background002.jpg);
+background-position: right center;
+background-size: cover;
+}
 
 footer {
     background-color: black;
