@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Celular</title>
+    <style>
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td {
+            border: 1px solid black; 
+            padding: 10px; 
+            text-align: center;
+        
+        }
+
+        table {
+            
+            border-collapse: collapse;
+            width: 300px; <!-- Da a largura da tabela -->
+            
+        }
+    </style>
+</head>
+
+<body>
+     <!-- Quando se trata de mesclagem de celulas a propriedade é simples: rowspan ou colspan 
+    Importante saber que linha é deitada e coluna é em pé, que linha é na horizontal e coluna na vertical -->
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td>T</td>
+        </tr>
+
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+
+        <tr>
+           
+            <td>M</td>
+            <td>J</td>
+        </tr>
+    </table>
+</body>
+</html>
